@@ -17,7 +17,6 @@ namespace TimeSeriesProject.Builders
 
         public TimeSeriesBuilder WithSamplingRate(Enumerations.TimeSpectrum timeSpectrum)
         {
-            //SamplingRate = (int)timeSpectrum;
 
             if (timeSpectrum == Enumerations.TimeSpectrum.EverySecond)
             {
